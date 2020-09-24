@@ -1,6 +1,6 @@
 import java.lang.Math;
 
-public class Test {
+public class UTF8Converter {
 
   public static void main(String[] args) throws NumberFormatException {
     printInBinaryFormat(UTF32_to_UTF8(Integer.valueOf(args[0], 16)));
